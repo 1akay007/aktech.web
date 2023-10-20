@@ -1,9 +1,6 @@
 import  streamlit as st
 
 st.title("welcome to aktech")
-import  streamlit as st
-
-st.title("welcome to aktech")
 st.header("latest iphones")
 import streamlit as st
 
@@ -45,3 +42,4 @@ for iphone in iphones:
     if iphone['model'] == selected_model:
         st.header(iphone['model'])
         st.write(f"Display: {iphone['display']}")
+
