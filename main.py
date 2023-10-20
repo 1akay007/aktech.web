@@ -31,7 +31,7 @@ iphones = [
 
         st.write(f"Camera: {iphone['camera']}")
         st.write(f"Chip: {iphone['chip']}")
-        st.write(f"Price: {iphone['price']}")# Streamlit web app
+        st.write(f"Price: {iphone['price']}")  
 st.title("New iPhones")
 
 # Display a list of iPhone models
